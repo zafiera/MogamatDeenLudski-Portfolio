@@ -1,0 +1,19 @@
+.nav-container {
+  padding-top: 65px;
+}
+
+.nav-container a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+}
+
+.nav-container a:hover {
+  color: yellow;
+}
+
+.active {
+  text-decoration: underline !important;
+  color: yellow !important;
+}

@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="">
+    <div class="">
+      <h2 class="project-heading">{{workItem.heading}}</h2>
+      <div class="project-description">
+        {{workItem.description}}
+      </div>
+      <div class="row">
+        <div class="col-3 col-md-3 col-sm-12" *ngFor="let imageSrc of workItem.imageArr">
+          <img class="image-container" [src]="imageSrc" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
