@@ -7,10 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ProjectPreviewComponent implements OnInit {
 
-  @Input() heading: any;
-  @Input() description: any;
-  @Input() buttonText: any;
-  @Input() imageArr: any;
+  @Input() workItem: any;
 
   constructor() { }
 

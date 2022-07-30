@@ -17,6 +17,7 @@
   </div>
 </div>
 
-<app-project-preview>
-
-</app-project-preview>
+<div *ngFor="let workItem of featuredWorkObject">
+  <app-project-preview [workItem]="workItem">
+  </app-project-preview>
+</div>
