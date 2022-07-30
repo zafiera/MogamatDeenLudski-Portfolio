@@ -1,0 +1,57 @@
+.landing-page-image-animation {
+  height: 90vh;
+  background-image: url('../../assets/landing-page/Face-blank-1024x576.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hover-images {
+  position: absolute;
+  width: 100%;
+  top: 89px !important;
+  margin: 0;
+  padding: 0;
+}
+
+.left-hover {
+  height: 90vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../assets/landing-page/Logic-Cyborg.png');
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.right-hover {
+  height: 90vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../assets/landing-page/creative-flair.png');
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.right-hover:hover, .left-hover:hover{
+  opacity: 1;
+}
+
+.intro{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.first-heading {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.second-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
