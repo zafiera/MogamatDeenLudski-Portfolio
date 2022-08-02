@@ -12,37 +12,42 @@ export class HomeComponent implements OnInit {
       heading: 'Mount Legacy',
       description: '',
       imageArr: [
-        '../../assets/Mount-legacy-CI/Asset 4.png',
-        '../../assets/Mount-legacy-CI/Mount legacy block.png',
-        '../../assets/Mount-legacy-CI/Mount legacy CI.png'
+        '../../assets/Mount-legacy-CI-Featured/Asset 4.png',
+        '../../assets/Mount-legacy-CI-Featured/Mount legacy block.png',
+        '../../assets/Mount-legacy-CI-Featured/Mount legacy CI.png'
       ]
     },
     {
       heading: 'SPCA Events',
       description: '',
       imageArr: [
-        '../../assets/SPCA-events/Paws-a-while design.jpg',
-        '../../assets/SPCA-events/Vetshop Grand Opening design.jpg',
-        '../../assets/SPCA-events/Vetshop promo design.jpg',
-        '../../assets/SPCA-events/Yard sale design.png'
+        '../../assets/SPCA-events-featured/Paws-a-while design.jpg',
+        '../../assets/SPCA-events-featured/Vetshop Grand Opening design.jpg',
+        '../../assets/SPCA-events-featured/Vetshop promo design.jpg',
+        '../../assets/SPCA-events-featured/Yard sale design.png'
       ]
     },
     {
       heading: 'Print Design',
       description: '',
-      imageArr: []
+      imageArr: [
+        '../../assets/Print-design-featured/Inspectorate-missionandvision-3.jpg',
+        '../../assets/Print-design-featured/Light box _ VETSHOP.jpg',
+        '../../assets/Print-design-featured/Ref.png'
+      ]
     },
     {
-      heading: 'string',
-      description: 'string',
-      imageArr: []
+      heading: 'SPCA social media',
+      description: '',
+      imageArr: [
+        '../../assets/SPCA-social-media-Featured/Cat-post.jpg',
+        '../../assets/SPCA-social-media-Featured/Social-media-post-1-insta.jpg',
+        '../../assets/SPCA-social-media-FeaturedSport-Scarf-post (1).jpg',
+
+      ]
     },
-    {
-      heading: 'string',
-      description: 'string',
-      imageArr: []
-    }
-  ]
+
+  ];
 
   constructor() { }
 
