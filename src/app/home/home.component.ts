@@ -23,28 +23,27 @@ export class HomeComponent implements OnInit {
       heading: 'SPCA Events',
       description: '',
       imageArr: [
-        // '../../assets/SPCA-events-featured/Paws-a-while design.jpg',
-        '../../assets/SPCA-events-featured/Vetshop Grand Opening design.jpg',
-        '../../assets/SPCA-events-featured/Vetshop promo design.jpg',
-        '../../assets/SPCA-events-featured/Yard sale design.png'
+        '../../assets/SPCA-events-featured/SPCA event-01.jpg',
+        '../../assets/SPCA-events-featured/SPCA event-02.jpg',
+        '../../assets/SPCA-events-featured/SPCA event-03.jpg'
       ]
     },
     {
       heading: 'Print Design',
       description: '',
       imageArr: [
-        '../../assets/Print-design-featured/Inspectorate-missionandvision-3.jpg',
-        '../../assets/Print-design-featured/Light box _ VETSHOP.jpg',
-        '../../assets/Print-design-featured/0.jpg'
+        '../../assets/Print-design-featured/Flyer_Mockup_004.jpg',
+        '../../assets/Print-design-featured/Print-design-wall.jpg',
+        '../../assets/Print-design-featured/Calendar-0.jpg'
       ]
     },
     {
       heading: 'SPCA social media',
       description: '',
       imageArr: [
-        '../../assets/SPCA-social-media-Featured/Cat-post.jpg',
-        '../../assets/SPCA-social-media-Featured/Social-media-post-1-insta.jpg',
-        '../../assets/SPCA-social-media-Featured/Sport-Scarf-post (1).jpg',
+        '../../assets/SPCA-social-media-Featured/SPCA SOcial media feat-01.jpg',
+        '../../assets/SPCA-social-media-Featured/SPCA SOcial media feat-02.jpg',
+        '../../assets/SPCA-social-media-Featured/SPCA SOcial media feat-03.jpg',
       ]
     },
 
