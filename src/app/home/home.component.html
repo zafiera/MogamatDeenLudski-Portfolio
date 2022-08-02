@@ -7,19 +7,23 @@
 <div class="intro">
   <div class="container-fluid">
     <div class="first-heading">
+<!--      [class.visually-hidden-focusable]="!animateMainText"-->
+<!--      class="first-heading animate__animated"-->
+<!--      [class.animate__zoomIn]="animateMainText"-->
+<!--      (visibilityChange)="_visibilityChangeHandler($event)"-->
+<!--      enterTheViewportNotifier-->
+<!--    >?-->
       Moegamat Deen Ludski is a Multimedia <br>
       Designer based in Cape Town
     </div>
     <div class="second-heading mt-3">
       Specialising in the Adobe Creative Cloud <br>
-      need more copy
     </div>
   </div>
 </div>
-
-<app-instagram-template></app-instagram-template>
 
 <div *ngFor="let workItem of featuredWorkObject">
   <app-project-preview [workItem]="workItem">
   </app-project-preview>
 </div>
+

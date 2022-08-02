@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Router} from "@angular/router";
 
 @Component({
@@ -6,7 +6,7 @@ import {Router} from "@angular/router";
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent implements OnInit, OnDestroy {
 
   isHome: boolean = false;
   isAbout: boolean = false;
@@ -14,8 +14,10 @@ export class HeaderComponent implements OnInit {
   isContact: boolean = false;
   isResume: boolean = false;
 
+  subscription;
+
   constructor(private router : Router) {
-    router.events.subscribe((val) => {
+    this.subscription = router.events.subscribe(() => {
       this.isHome = this.router.url === '/';
       this.isAbout = this.router.url.includes('about');
       this.isWork = this.router.url.includes('work');
@@ -26,6 +28,10 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
 
+  }
+
+  ngOnDestroy() {
+    this.subscription.unsubscribe();
   }
 
 }

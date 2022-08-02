@@ -13,6 +13,8 @@ import {RouterModule} from "@angular/router";
 import { AppRoutingModule } from './app-routing.module';
 import { ProjectPreviewComponent } from './project-preview/project-preview.component';
 import { InstagramTemplateComponent } from './instagram-template/instagram-template.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { EnterTheViewportNotifierDirective } from './enter-the-viewport-notifier.directive';
 
 @NgModule({
   declarations: [
@@ -25,12 +27,14 @@ import { InstagramTemplateComponent } from './instagram-template/instagram-templ
     WorkComponent,
     HomeComponent,
     ProjectPreviewComponent,
-    InstagramTemplateComponent
+    InstagramTemplateComponent,
+    EnterTheViewportNotifierDirective
   ],
   imports: [
     BrowserModule,
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
