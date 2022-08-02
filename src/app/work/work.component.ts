@@ -7,6 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkComponent implements OnInit {
 
+  projectItem = [
+    {
+      date: '',
+      company: 'SPCA',
+      caption: '',
+      companyImage: '../../assets/',
+      mainImage: '../../assets/'
+    }
+  ]
+
   constructor() { }
 
   ngOnInit(): void {

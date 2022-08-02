@@ -1,0 +1,9 @@
+<div *ngFor="let item of projectItem">
+  <app-instagram-template
+    [date]="item.date"
+    [company]="item.company"
+    [caption]="item.caption"
+    [companyImage]="item.companyImage"
+    [mainImage]="item.mainImage"
+  ></app-instagram-template>
+</div>
