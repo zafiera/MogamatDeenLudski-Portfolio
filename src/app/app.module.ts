@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import {RouterModule} from "@angular/router";
 import { AppRoutingModule } from './app-routing.module';
 import { ProjectPreviewComponent } from './project-preview/project-preview.component';
+import { InstagramTemplateComponent } from './instagram-template/instagram-template.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ProjectPreviewComponent } from './project-preview/project-preview.compo
     ResumeComponent,
     WorkComponent,
     HomeComponent,
-    ProjectPreviewComponent
+    ProjectPreviewComponent,
+    InstagramTemplateComponent
   ],
   imports: [
     BrowserModule,

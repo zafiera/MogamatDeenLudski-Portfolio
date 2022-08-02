@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
       heading: 'SPCA Events',
       description: '',
       imageArr: [
-        '../../assets/SPCA-events-featured/Paws-a-while design.jpg',
+        // '../../assets/SPCA-events-featured/Paws-a-while design.jpg',
         '../../assets/SPCA-events-featured/Vetshop Grand Opening design.jpg',
         '../../assets/SPCA-events-featured/Vetshop promo design.jpg',
         '../../assets/SPCA-events-featured/Yard sale design.png'
@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit {
       imageArr: [
         '../../assets/Print-design-featured/Inspectorate-missionandvision-3.jpg',
         '../../assets/Print-design-featured/Light box _ VETSHOP.jpg',
-        '../../assets/Print-design-featured/Ref.png'
+        '../../assets/Print-design-featured/0.jpg'
       ]
     },
     {
@@ -42,8 +42,7 @@ export class HomeComponent implements OnInit {
       imageArr: [
         '../../assets/SPCA-social-media-Featured/Cat-post.jpg',
         '../../assets/SPCA-social-media-Featured/Social-media-post-1-insta.jpg',
-        '../../assets/SPCA-social-media-FeaturedSport-Scarf-post (1).jpg',
-
+        '../../assets/SPCA-social-media-Featured/Sport-Scarf-post (1).jpg',
       ]
     },
 
