@@ -15,77 +15,18 @@
       </header>
 
       <div class="scroll">
-
-        <!--      <section class="stories">-->
-
-        <!--        <div class="scroll-stories">-->
-
-        <!--          <div class="storie">-->
-        <!--                        <span class="photo">-->
-        <!--                            <img src="https://storage.googleapis.com/mkts/walter.jpg" alt="Fulano">-->
-        <!--                        </span>-->
-        <!--            <span class="name">Walter</span>-->
-        <!--          </div>-->
-        <!--          <div class="storie">-->
-        <!--                        <span class="photo">-->
-        <!--                            <img src="https://storage.googleapis.com/mkts/walter.jpg" alt="Fulano">-->
-        <!--                        </span>-->
-        <!--            <span class="name">Walter</span>-->
-        <!--          </div>-->
-        <!--          <div class="storie">-->
-        <!--                        <span class="photo">-->
-        <!--                            <img src="https://storage.googleapis.com/mkts/walter.jpg" alt="Fulano">-->
-        <!--                        </span>-->
-        <!--            <span class="name">Walter</span>-->
-        <!--          </div>-->
-        <!--          <div class="storie">-->
-        <!--                        <span class="photo">-->
-        <!--                            <img src="https://storage.googleapis.com/mkts/walter.jpg" alt="Fulano">-->
-        <!--                        </span>-->
-        <!--            <span class="name">Walter</span>-->
-        <!--          </div>-->
-        <!--          <div class="storie">-->
-        <!--                        <span class="photo">-->
-        <!--                            <img src="https://storage.googleapis.com/mkts/walter.jpg" alt="Fulano">-->
-        <!--                        </span>-->
-        <!--            <span class="name">Walter</span>-->
-        <!--          </div>-->
-        <!--          <div class="storie">-->
-        <!--                        <span class="photo">-->
-        <!--                            <img src="https://storage.googleapis.com/mkts/walter.jpg" alt="Fulano">-->
-        <!--                        </span>-->
-        <!--            <span class="name">Walter</span>-->
-        <!--          </div>-->
-        <!--          <div class="storie">-->
-        <!--                        <span class="photo">-->
-        <!--                            <img src="https://storage.googleapis.com/mkts/walter.jpg" alt="Fulano">-->
-        <!--                        </span>-->
-        <!--            <span class="name">Walter</span>-->
-        <!--          </div>-->
-        <!--          <div class="storie">-->
-        <!--                        <span class="photo">-->
-        <!--                            <img src="https://storage.googleapis.com/mkts/walter.jpg" alt="Fulano">-->
-        <!--                        </span>-->
-        <!--            <span class="name">Walter</span>-->
-        <!--          </div>-->
-
-        <!--        </div>-->
-
-        <!--      </section>-->
-
         <main class="content">
           <div class="post">
             <div class="post-header">
-              <img class="user-thumb" src="https://storage.googleapis.com/mkts/walter.jpg" alt="Walter">
+              <img class="user-thumb" [src]="companyImage" alt="Walter">
               <div class="user-details">
-                <strong class="name">capespca</strong>
-                <span class="location pt-1">Cape of Good Hope SPCA</span>
+                <strong class="name">{{company}}</strong>
               </div>
               <div class="post-menu">
                 <span class="menu">&nbsp;</span>
               </div>
             </div>
-            <img src='../../assets/SPCA-events-featured/Vetshop Grand Opening design.jpg' alt="post"
+            <img [src]='mainImage' alt="post"
                  class="post-photo">
             <div class="post-footer">
 
@@ -98,12 +39,12 @@
 
               <div class="likes">
                 <img src="https://storage.googleapis.com/mkts/walter.jpg" alt="user" class="user-like">
-                Curtido por <strong>Fulano</strong> e <strong>outras 8 pessoas</strong>
+                {{randomNum}} likes
               </div>
 
               <div class="comments">
                 <p>
-                  <strong>{{company}}</strong> Uma tela projetada para o instagram
+                  <strong>{{company}}</strong> {{caption}}
                 </p>
               </div>
 
