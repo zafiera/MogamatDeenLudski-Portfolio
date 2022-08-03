@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkComponent implements OnInit {
 
-  projectItem = [
+  imageArr = [
     {
       date: '',
       company: 'SPCA',
