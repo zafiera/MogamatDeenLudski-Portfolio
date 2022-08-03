@@ -3,7 +3,6 @@
     "public": "dist/mogamat-deen-ludski-portfolio",
     "ignore": [
       "firebase.json",
-      "**/.*",
       "**/node_modules/**"
     ],
     "rewrites": [
