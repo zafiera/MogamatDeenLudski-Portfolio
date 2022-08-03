@@ -13,6 +13,7 @@ import {RouterModule} from "@angular/router";
 import { AppRoutingModule } from './app-routing.module';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { EnterTheViewportNotifierDirective } from './enter-the-viewport-notifier.directive';
+import { ProjectTemplateComponent } from './project-template/project-template.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { EnterTheViewportNotifierDirective } from './enter-the-viewport-notifier
     ResumeComponent,
     WorkComponent,
     HomeComponent,
-    EnterTheViewportNotifierDirective
+    EnterTheViewportNotifierDirective,
+    ProjectTemplateComponent
   ],
   imports: [
     BrowserModule,
