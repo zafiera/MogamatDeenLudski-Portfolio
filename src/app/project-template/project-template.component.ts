@@ -7,6 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ProjectTemplateComponent implements OnInit {
 
+  @Input() altDisplay: any;
   @Input() imageArr: any;
 
   constructor() { }

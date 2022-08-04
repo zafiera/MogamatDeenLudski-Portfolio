@@ -1,3 +1,5 @@
-<div class="container pt-5">
-  <app-project-template [imageArr]="imageArr"></app-project-template>
+<div class="container work-container">
+  <div *ngFor="let imageArr of projectArr; let i = index">
+    <app-project-template [imageArr]="imageArr" [altDisplay]="i % 2 == 0"></app-project-template>
+  </div>
 </div>

@@ -7,14 +7,49 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkComponent implements OnInit {
 
-  imageArr = [
+  projectArr = [
     {
       date: '',
       company: 'SPCA',
       caption: '',
       companyImage: '../../assets/',
       mainImage: '../../assets/'
-    }
+    },
+    {
+      date: '',
+      company: 'SPCA',
+      caption: '',
+      companyImage: '../../assets/',
+      mainImage: '../../assets/'
+    },
+    {
+      date: '',
+      company: 'SPCA',
+      caption: '',
+      companyImage: '../../assets/',
+      mainImage: '../../assets/'
+    },
+    {
+      date: '',
+      company: 'SPCA',
+      caption: '',
+      companyImage: '../../assets/',
+      mainImage: '../../assets/'
+    },
+    {
+      date: '',
+      company: 'SPCA',
+      caption: '',
+      companyImage: '../../assets/',
+      mainImage: '../../assets/'
+    },
+    {
+      date: '',
+      company: 'SPCA',
+      caption: '',
+      companyImage: '../../assets/',
+      mainImage: '../../assets/'
+    },
   ]
 
   constructor() { }
