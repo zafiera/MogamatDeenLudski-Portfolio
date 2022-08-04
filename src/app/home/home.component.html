@@ -10,12 +10,6 @@
       <img src="../../assets/Memoji/mdl-laptop.png" alt="">
     </div>
     <div class="first-heading">
-      <!--      [class.visually-hidden-focusable]="!animateMainText"-->
-      <!--      class="first-heading animate__animated"-->
-      <!--      [class.animate__zoomIn]="animateMainText"-->
-      <!--      (visibilityChange)="_visibilityChangeHandler($event)"-->
-      <!--      enterTheViewportNotifier-->
-      <!--    >?-->
       Moegamat Deen Ludski is a Multimedia <br>
       Designer based in Cape Town
     </div>
@@ -27,7 +21,7 @@
 
 <div class="featured-work container">
   <div *ngFor="let workItem of featuredWorkObject" class="row">
-    <div class="col-4 col-md-4 col-sm-12" *ngFor="let imageSrc of workItem.imageArr">
+    <div class="col-lg-4 col-sm-12" *ngFor="let imageSrc of workItem.imageArr">
       <img class="image-container" [src]="imageSrc" alt="">
     </div>
   </div>

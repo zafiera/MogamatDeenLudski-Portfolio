@@ -1,55 +1,37 @@
 <div class="row" *ngIf="altDisplay">
   <div class="col-md-4">
     <div class="row flex-column">
-      <div class="col-md-12">
-        <div class="image-small"></div>
-      </div>
-      <div class="col-md-12">
-        <div class="image-small"></div>
+      <div class="col-md-12" *ngFor="let image of imageArr.verticalRowImages">
+        <img [src]="image" alt="">
       </div>
     </div>
   </div>
   <div class="col-md-8">
-    <div class="image-big"></div>
+    <img [src]="imageArr.mainImage" alt="">
   </div>
   <div class="col-md-12">
     <div class="row">
-      <div class="col-md-4">
-        <div class="image-small"></div>
-      </div>
-      <div class="col-md-4">
-        <div class="image-small"></div>
-      </div>
-      <div class="col-md-4">
-        <div class="image-small"></div>
+      <div class="col-md-4" *ngFor="let image of imageArr.horizontalRowImages">
+        <img [src]="image" alt="">
       </div>
     </div>
   </div>
 </div>
 <div class="row" *ngIf="!altDisplay">
   <div class="col-md-8">
-    <div class="image-big"></div>
+    <img [src]="imageArr.mainImage" alt="">
   </div>
   <div class="col-md-4">
     <div class="row flex-column">
-      <div class="col-md-12">
-        <div class="image-small"></div>
-      </div>
-      <div class="col-md-12">
-        <div class="image-small"></div>
+      <div class="col-md-12" *ngFor="let image of imageArr.verticalRowImages">
+        <img [src]="image" alt="">
       </div>
     </div>
   </div>
   <div class="col-md-12">
     <div class="row">
-      <div class="col-md-4">
-        <div class="image-small"></div>
-      </div>
-      <div class="col-md-4">
-        <div class="image-small"></div>
-      </div>
-      <div class="col-md-4">
-        <div class="image-small"></div>
+      <div class="col-md-4" *ngFor="let image of imageArr.horizontalRowImages">
+        <img [src]="image" alt="">
       </div>
     </div>
   </div>
