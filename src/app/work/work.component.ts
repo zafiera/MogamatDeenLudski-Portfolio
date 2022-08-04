@@ -9,47 +9,17 @@ export class WorkComponent implements OnInit {
 
   projectArr = [
     {
-      date: '',
-      company: 'SPCA',
-      caption: '',
-      companyImage: '../../assets/',
-      mainImage: '../../assets/'
-    },
-    {
-      date: '',
-      company: 'SPCA',
-      caption: '',
-      companyImage: '../../assets/',
-      mainImage: '../../assets/'
-    },
-    {
-      date: '',
-      company: 'SPCA',
-      caption: '',
-      companyImage: '../../assets/',
-      mainImage: '../../assets/'
-    },
-    {
-      date: '',
-      company: 'SPCA',
-      caption: '',
-      companyImage: '../../assets/',
-      mainImage: '../../assets/'
-    },
-    {
-      date: '',
-      company: 'SPCA',
-      caption: '',
-      companyImage: '../../assets/',
-      mainImage: '../../assets/'
-    },
-    {
-      date: '',
-      company: 'SPCA',
-      caption: '',
-      companyImage: '../../assets/',
-      mainImage: '../../assets/'
-    },
+      mainImage: '../../assets/folder/imagename.format',
+      verticalRowImages: [
+        '../../assets/folder/imagename.format',
+        '../../assets/folder/imagename.format'
+      ],
+      horizontalRowImages: [
+        '../../assets/folder/imagename.format',
+        '../../assets/folder/imagename.format',
+        '../../assets/folder/imagename.format'
+      ]
+    }
   ]
 
   constructor() { }
